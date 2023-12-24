@@ -2,7 +2,6 @@ package secret.filter;
 
 import java.io.IOException;
 
-import javax.persistence.metamodel.SetAttribute;
 import javax.servlet.FilterChain;
 import javax.servlet.RequestDispatcher;
 import javax.servlet.ServletException;

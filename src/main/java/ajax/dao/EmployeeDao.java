@@ -1,7 +1,6 @@
 package ajax.dao;
 
 import java.util.List;
-import java.util.Optional;
 import java.util.concurrent.CopyOnWriteArrayList;
 
 import javax.persistence.EntityManager;
