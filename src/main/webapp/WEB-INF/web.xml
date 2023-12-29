@@ -22,34 +22,34 @@
 		<location>/WEB-INF/view/spa/spa_error.jsp</location>
 	</error-page>
 
-	<filter>
-		<filter-name>AFilter</filter-name>
-		<filter-class>filter.AFilter</filter-class>
-	</filter>	
+<!-- 	<filter> -->
+<!-- 		<filter-name>AFilter</filter-name> -->
+<!-- 		<filter-class>filter.AFilter</filter-class> -->
+<!-- 	</filter>	 -->
 
-	<filter>
-		<filter-name>BFilter</filter-name>
-		<filter-class>filter.BFilter</filter-class>
-	</filter>	
+<!-- 	<filter> -->
+<!-- 		<filter-name>BFilter</filter-name> -->
+<!-- 		<filter-class>filter.BFilter</filter-class> -->
+<!-- 	</filter>	 -->
 
-	<filter>
-		<filter-name>CFilter</filter-name>
-		<filter-class>filter.CFilter</filter-class>
-	</filter>
+<!-- 	<filter> -->
+<!-- 		<filter-name>CFilter</filter-name> -->
+<!-- 		<filter-class>filter.CFilter</filter-class> -->
+<!-- 	</filter> -->
 	
-	<filter-mapping>
-		<filter-name>BFilter</filter-name>
-		<url-pattern>/servlet/*</url-pattern>
-	</filter-mapping>
+<!-- 	<filter-mapping> -->
+<!-- 		<filter-name>BFilter</filter-name> -->
+<!-- 		<url-pattern>/servlet/*</url-pattern> -->
+<!-- 	</filter-mapping> -->
 	
-	<filter-mapping>
-		<filter-name>AFilter</filter-name>
-		<url-pattern>/servlet/*</url-pattern>
-	</filter-mapping>
+<!-- 	<filter-mapping> -->
+<!-- 		<filter-name>AFilter</filter-name> -->
+<!-- 		<url-pattern>/servlet/*</url-pattern> -->
+<!-- 	</filter-mapping> -->
 	
-	<filter-mapping>
-		<filter-name>CFilter</filter-name>
-		<url-pattern>/servlet/*</url-pattern>
-	</filter-mapping>
+<!-- 	<filter-mapping> -->
+<!-- 		<filter-name>CFilter</filter-name> -->
+<!-- 		<url-pattern>/servlet/*</url-pattern> -->
+<!-- 	</filter-mapping> -->
 	
 </web-app>
