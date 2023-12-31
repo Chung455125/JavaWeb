@@ -11,7 +11,7 @@ public class SpaSessionListener implements HttpSessionListener {
 	// 當有新的 session 被創建時
 	@Override
 	public void sessionCreated(HttpSessionEvent se) {
-		System.out.println("有新的 session 被建立, id: " + se.getSession().getId());
+		System.out.println("有 session 被建立, id: " + se.getSession().getId());
 		totalCount++;
 		currentCount++;
 	}
