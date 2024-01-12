@@ -16,9 +16,13 @@ public class UserFilter extends HttpFilter {
 	@Override
 	protected void doFilter(HttpServletRequest req, HttpServletResponse res, FilterChain chain)
 			throws IOException, ServletException {
+		
 		// 過濾 _method
 		String _method = req.getParameter("_method");
 		final String http_method = _method == null ? req.getMethod() : _method;
+//		System.out.println(_method);
+//		System.out.println(req.getMethod());
+//		System.out.println(http_method);
 		
 		HttpServletRequestWrapper wrapperRequest = new HttpServletRequestWrapper(req) {
 			@Override
