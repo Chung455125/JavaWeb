@@ -18,6 +18,8 @@ import ajax.entity.Employee;
 
 @WebServlet("/ajax/employees/*")
 public class EmployeeServlet extends HttpServlet {
+
+	private static final long serialVersionUID = -8681532133489399364L;
 	private EmployeeDao employeeDao = EmployeeDao.getInstance();
 	private Gson gson = new Gson();
 	
