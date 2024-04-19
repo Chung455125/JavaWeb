@@ -19,7 +19,6 @@
 	<body style="padding: 0px">
 		<!-- Title  -->
 		<%@include file="/WEB-INF/view/spa/spa_title.jspf" %>
-<%-- 		<c:import url="/WEB-INF/view/spa/spa_title.jspf"></c:import> --%>
 		<!-- Spa Table -->
 		<table style="padding: 20px">
 			<tr>
